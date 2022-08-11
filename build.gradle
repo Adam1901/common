@@ -1,0 +1,14 @@
+plugins {
+  id "com.github.node-gradle.node" version "3.1.1"
+}
+
+task build() {
+
+
+  println 'Skipping'
+}
+
+task clean(type: Delete) {
+  println 'cleaning dist'
+  delete "dist"
+}
